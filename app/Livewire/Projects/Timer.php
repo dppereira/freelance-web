@@ -9,10 +9,6 @@ class Timer extends Component
 {
     public Project $project;
 
-    public function timer() {
-
-    }
-
     public function render()
     {
         $diff =  now()->diff($this->project->ends_at);
