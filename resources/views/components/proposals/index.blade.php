@@ -29,5 +29,4 @@
             </div>
         @endif
     </div>
-
 </x-ui.card>

@@ -9,13 +9,6 @@
         "bg-[#F1F5F9]" => $position > 2,
 
     ])>
-    {{-- "bg-[#FECDD3]" => $position == 4,
-    "bg-[#C0F7B4]" => $position == 3, --}}
-
-        {{-- @elseif($position == 3)
-        <x-ui.icons.arrow-up class="w-[24px] h-[24px]"/>
-    @elseif($position == 4)
-        <x-ui.icons.arrow-down class="w-[24px] h-[24px]"/> --}}
 
     @if($position < 3)
         <x-ui.icons.trophy class="w-[24px] h-[24px]"/>
